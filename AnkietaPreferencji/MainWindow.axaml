@@ -5,5 +5,23 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AnkietaPreferencji.MainWindow"
         Title="AnkietaPreferencji">
-    Welcome to Avalonia!
+    <StackPanel Margin="20" HorizontalAlignment="Center" >
+        <TextBox x:Name="imie" Width="200" Margin="10" Watermark="Imię użytkownika"/>
+        
+            <ComboBox x:Name="zainteresowania" SelectedIndex="0" Margin="10"
+                      HorizontalAlignment="Center" 
+                      HorizontalContentAlignment="Center">
+                <ComboBoxItem Content="Programowanie"/>
+                <ComboBoxItem Content="Sport"/>
+                <ComboBoxItem Content="Granie"/>
+                <ComboBoxItem Content="Muzyka"/>
+            </ComboBox>
+        
+        <Button x:Name="SubmitButton" Content="Zatwierdź dane"
+                Width="150" Margin="10"
+                HorizontalContentAlignment="Center"
+                HorizontalAlignment="Center"
+                />
+
+    </StackPanel>
 </Window>
