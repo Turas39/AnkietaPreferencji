@@ -22,6 +22,50 @@
                 HorizontalContentAlignment="Center"
                 HorizontalAlignment="Center"
                 />
-
+                
+        <Grid>
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="Auto"/>
+                
+                <RowDefinition Height="*"/>
+                
+                <RowDefinition Height="2*"/>
+                
+                <RowDefinition Height="3*"/>
+                
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                
+                <ColumnDefinition Width="Auto"/>
+                
+                <ColumnDefinition Width="*"/>
+                
+                <ColumnDefinition Width="2*"/>
+                
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Czy lubisz jeść?" Margin="20" FontSize="16"/>
+            <CheckBox x:Name="checkbox1" 
+                      Grid.Row="0" Grid.Column="1" 
+                      Content="TAK"
+                      />
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Czy lubisz pić?" Margin="20" FontSize="16"/>
+            <CheckBox x:Name="checkbox2" 
+                      Grid.Row="1" Grid.Column="1" 
+                      Content="TAK"
+            />
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Czy lubisz spać?" Margin="20" FontSize="16"/>
+            <CheckBox x:Name="checkbox3" 
+                      Grid.Row="2" Grid.Column="1" 
+                      Content="TAK"
+            />
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="Czy lubisz żyć?" Margin="20" FontSize="16"/>
+            <CheckBox x:Name="checkbox4" 
+                      Grid.Row="3" Grid.Column="1" 
+                      Content="TAK"
+            />
+        </Grid>
     </StackPanel>
 </Window>
