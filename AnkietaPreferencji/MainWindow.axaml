@@ -67,5 +67,17 @@
                       Content="TAK"
             />
         </Grid>
+        
+        <Button x:Name="podsumowaniebutton" Content="Wyświetl podsumowanie"
+                Width="200" Margin="10"
+                HorizontalContentAlignment="Center"
+                HorizontalAlignment="Center"
+        />
+        
+        <StackPanel>
+            <TextBlock x:Name="podsumowanietextblock" Text="Podsumowanie:"
+                       HorizontalAlignment="Center"
+                       Margin="10"/>
+        </StackPanel>
     </StackPanel>
 </Window>
