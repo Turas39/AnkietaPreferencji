@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80350861-b2ae-4431-9061-270eb3ccc6f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AnkietaPreferencji/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnkietaPreferencji/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AnkietaPreferencji/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AnkietaPreferencji/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741677346795</updated>
       <workItem from="1741677350429" duration="5148000" />
+      <workItem from="1741682521748" duration="47000" />
+      <workItem from="1742281887105" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -120,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741681666757</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="początek C# wprowadzanie danych">
+      <option name="closed" value="true" />
+      <created>1741682543474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741682543474</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +144,7 @@
     <MESSAGE value="Wprowadzanie danych użytkowników axaml" />
     <MESSAGE value="Pytania ankiety axaml" />
     <MESSAGE value="Podsumowanie wyników axaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Podsumowanie wyników axaml" />
+    <MESSAGE value="początek C# wprowadzanie danych" />
+    <option name="LAST_COMMIT_MESSAGE" value="początek C# wprowadzanie danych" />
   </component>
 </project>

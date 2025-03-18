@@ -22,6 +22,10 @@
                 HorizontalContentAlignment="Center"
                 HorizontalAlignment="Center"
                 />
+        
+        <Label x:Name="InfoLabel" Content="Tu bedzie info o zapisie danych"
+               Margin="10"
+        />
                 
         <Grid>
             <Grid.RowDefinitions>
