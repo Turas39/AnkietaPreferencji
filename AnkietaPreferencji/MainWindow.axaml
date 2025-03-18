@@ -72,14 +72,14 @@
             />
         </Grid>
         
-        <Button x:Name="podsumowaniebutton" Content="Wyświetl podsumowanie"
+        <Button x:Name="PodsumowanieButton" Content="Wyświetl podsumowanie"
                 Width="200" Margin="10"
                 HorizontalContentAlignment="Center"
                 HorizontalAlignment="Center"
         />
         
         <StackPanel>
-            <TextBlock x:Name="podsumowanietextblock" Text="Podsumowanie:"
+            <TextBlock x:Name="PodsumowanieTextBlock" Text="Podsumowanie:"
                        HorizontalAlignment="Center"
                        Margin="10"/>
         </StackPanel>
